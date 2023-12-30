@@ -1,0 +1,34 @@
+import java.util.*;
+
+public class loop1 
+{
+
+	public static void main(String[] args)
+
+	{
+
+	    Scanner s=new Scanner(System.in);
+
+	    int i,j;
+
+		System.out.println("enter lower limit");
+
+		i=s.nextInt();
+
+		System.out.println("enter upper limit");
+
+		j=s.nextInt();
+
+		while(j>=i)
+
+		{
+
+		    System.out.println( " " +i );
+
+		    i++;
+
+		}
+
+	}
+
+}
