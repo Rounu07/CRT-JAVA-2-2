@@ -1,0 +1,56 @@
+1.Write a program to find given Strings are same or not...
+sol:-
+    import java.io.*;
+    import java.util.*;
+
+     public class Solution
+  {
+     public static void main(String[] args)
+     {
+        Scanner s=new Scanner (System.in);
+       String s1,s2;
+        s1=s.next();
+        s2=s.next();
+    if (s1.equals(s2))
+        {
+        System.out.println("Strings are same" );
+        }
+        else
+        {
+            System.out.println("Strings are not same");
+        }
+    }
+}
+-----------------------------------------------------------------------
+2.Write a program to find the concatenation of given two Strings..
+sol:-
+     import java.io.*;
+     import java.util.*;
+
+     public class Solution {
+
+    public static void main(String[] args) {
+       Scanner s=new Scanner (System.in);
+        String s1,s2,s3,s4;
+        s1=s.next();
+        s2=s.next();
+        s4=" ";
+        s3=s1+s4+s2;
+        System.out.println(s3);
+    }
+}
+-----------------------------------------------------------------------
+3.Write a program to change the given String to Uppercase...
+sol:-
+    import java.io.*;
+     import java.util.*;
+
+     public class Solution {
+
+         public static void main(String[] args) {
+       Scanner s=new Scanner(System.in);
+        String s1;
+        s1=s.nextLine();
+        System.out.println(s1.toUpperCase());
+    }
+}
